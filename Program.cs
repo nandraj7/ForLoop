@@ -1,4 +1,5 @@
 ﻿
+using ForLoop;
 using System.Globalization;
 
 public class Program
@@ -22,6 +23,19 @@ public class Program
         NestedLoop3();
 
         NestedLoop4();
+
+        NestedLoop5();
+
+        NestedLoop6();
+
+        Pattern.Pattern1();
+        Pattern.Pattern2();
+        Pattern.Pattern3();
+        Pattern.Pattern4();
+        Pattern.Pattern5();
+        Pattern.Pattern6();
+        Pattern.Pattern7();
+        Pattern.Pattern8();
     }
 
     static void PrintNumbers()
@@ -64,7 +78,7 @@ public class Program
         //Q print numbers from 6 12 18 24 30.....60
         Console.WriteLine("Numbers From..");
         for (int i = 6; i <= 60; i = i + 6)
-        { 
+        {
             Console.WriteLine(i);
 
         }
@@ -116,12 +130,11 @@ public class Program
         }
         Console.WriteLine("______________________________________________ ");
     }
-
     static void NestedLoop3()
     {
-        for (int i=1; i<=5; i++)
+        for (int i = 1; i <= 5; i++)
         {
-            for (int j=1; j<=i; j++)
+            for (int j = 1; j <= i; j++)
             {
                 Console.Write("*");
             }
@@ -129,12 +142,11 @@ public class Program
         }
         Console.WriteLine("______________________________________________ ");
     }
-
     static void NestedLoop4()
     {
-        for ( int i=5; i>=1; i--)
+        for (int i = 5; i >= 1; i--)
         {
-            for (int j=1; j<=i; j++)
+            for (int j = 1; j <= i; j++)
             {
                 Console.Write("*");
             }
@@ -142,5 +154,36 @@ public class Program
         }
         Console.WriteLine("______________________________________________ ");
     }
+    static void NestedLoop5()
+    {
+        Console.WriteLine("Numbers From..");
+        for (int i = 5; i >= 1; i--)                //rows
+        {
+
+            for (int j = 1; j <= 5; j++)            //columns
+            {
+                Console.Write(j);
+            }
+
+            Console.WriteLine();
+
+        }
+        Console.WriteLine("______________________________________________ ");
+    }
+    static void NestedLoop6()
+    {
+        Console.WriteLine("Number Form..");
+        for (int i = 1; i <= 5; i++)
+        {
+            for (int j = 5; j >= 1; j--)
+            {
+                Console.Write(j);
+            }
+            Console.WriteLine();
+        }
+        Console.WriteLine("__________________________________________________");
+    }
+
 
 }
+
