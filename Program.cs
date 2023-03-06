@@ -6,36 +6,39 @@ public class Program
 {
     public static void Main()
     {
-        PrintNumbers();
+        //Pattern.StaticFunction1();
+      
+        Pattern patternObject = new Pattern();
+        // patternObject.NonStaticFunction2();
+        //patternObject.StarPattern1();
+        //patternObject.StarPattern2();
+        //patternObject.StarPattern3();
+        patternObject.StarPattern4();
 
-        PrintNumbers1();
 
-        PrintNumbers2();
+        //PrintNumbers();
+        //PrintNumbers1();
+        //PrintNumbers2();
+        //PrintNumbers3();
 
-        PrintNumbers3();
+        //NestedLoop();
+        //NestedLoop1();
+        //NestedLoop2();
+        //NestedLoop3();
+        //NestedLoop4();
+        //NestedLoop5();
+        //NestedLoop6();
 
-        NestedLoop();
+        //Pattern.Pattern1();
+        //Pattern.Pattern2();
+        //Pattern.Pattern3();
+        //Pattern.Pattern4();
+        //Pattern.Pattern5();
+        //Pattern.Pattern6();
+        //Pattern.Pattern7();
+        //Pattern.Pattern8();
 
-        NestedLoop1();
 
-        NestedLoop2();
-
-        NestedLoop3();
-
-        NestedLoop4();
-
-        NestedLoop5();
-
-        NestedLoop6();
-
-        Pattern.Pattern1();
-        Pattern.Pattern2();
-        Pattern.Pattern3();
-        Pattern.Pattern4();
-        Pattern.Pattern5();
-        Pattern.Pattern6();
-        Pattern.Pattern7();
-        Pattern.Pattern8();
     }
 
     static void PrintNumbers()
