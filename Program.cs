@@ -10,10 +10,13 @@ public class Program
       
         Pattern patternObject = new Pattern();
         // patternObject.NonStaticFunction2();
-        //patternObject.StarPattern1();
-        //patternObject.StarPattern2();
-        //patternObject.StarPattern3();
+
+        patternObject.StarPattern1();
+        patternObject.StarPattern2();
+        patternObject.StarPattern3();
         patternObject.StarPattern4();
+        patternObject.StarPattern5();
+        patternObject.StarPattern6();
 
 
         //PrintNumbers();
@@ -26,8 +29,6 @@ public class Program
         //NestedLoop2();
         //NestedLoop3();
         //NestedLoop4();
-        //NestedLoop5();
-        //NestedLoop6();
 
         //Pattern.Pattern1();
         //Pattern.Pattern2();
@@ -135,30 +136,6 @@ public class Program
     }
     static void NestedLoop3()
     {
-        for (int i = 1; i <= 5; i++)
-        {
-            for (int j = 1; j <= i; j++)
-            {
-                Console.Write("*");
-            }
-            Console.WriteLine();
-        }
-        Console.WriteLine("______________________________________________ ");
-    }
-    static void NestedLoop4()
-    {
-        for (int i = 5; i >= 1; i--)
-        {
-            for (int j = 1; j <= i; j++)
-            {
-                Console.Write("*");
-            }
-            Console.WriteLine();
-        }
-        Console.WriteLine("______________________________________________ ");
-    }
-    static void NestedLoop5()
-    {
         Console.WriteLine("Numbers From..");
         for (int i = 5; i >= 1; i--)                //rows
         {
@@ -173,7 +150,7 @@ public class Program
         }
         Console.WriteLine("______________________________________________ ");
     }
-    static void NestedLoop6()
+    static void NestedLoop4()
     {
         Console.WriteLine("Number Form..");
         for (int i = 1; i <= 5; i++)

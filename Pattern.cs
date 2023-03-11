@@ -24,20 +24,19 @@ namespace ForLoop
             for(int i=0; i<num; i++)
             {
                 for(int j=0; j<num; j++)   
-                Console.Write("*");
+                Console.Write(" *");
                 {
                     Console.WriteLine();
                 }
             }
         }
-
         public void StarPattern2()
         {
             GetNumberFromUser();
             for (int i = 1; i <= num; i++)
             {
                 for (int j = 1; j <= i; j++)
-                    Console.Write("*");
+                    Console.Write(" *");
                 {
                     Console.WriteLine();
                 }
@@ -49,42 +48,82 @@ namespace ForLoop
             for (int i = num; i >= 1; i--)
             {
                 for (int j = 1; j <= i; j++)
-                    Console.Write("*");
+                    Console.Write(" *");
                 {
                     Console.WriteLine();
                 }
             }
         }
-
         public void StarPattern4()
         {
             GetNumberFromUser();
             for (int i = 1; i <= num; i++)
             {
-                for(int k = num - i; k > 1; k--)
+                for (int k = num - i; k >= 1; k--)
                 {
                     Console.Write(" ");
                 }
                 for (int j = 1; j <= i; j++)
-                    Console.Write(" * ");
+                    Console.Write(" *");
                 {
                     Console.WriteLine();
                 }
             }
         }
+        public void StarPattern5()
+        {
+            GetNumberFromUser();
+            for (int i = 1; i <= num; i++)
+            {
+                Console.Write("  ");
+                for (int j = 1; j <= i; j++)
+                    Console.Write(" *");
+                {
+                    Console.WriteLine();
+                }
+            }
+            for (int i = num-1; i >= 1; i--)
+            {
+                Console.Write("  ");
+                for (int j = 1; j <= i; j++)
+                    Console.Write(" *");
+                {
+                    Console.WriteLine();
+                }
+            }
 
+        }
+        public void StarPattern6()
+        {
+            GetNumberFromUser();
+            for (int i = 1; i <= num; i++)
+            {
+                Console.Write("  ");
+                for (int k = num - i; k >= 1; k--)
+                {
+                    Console.Write(" ");
+                }
+                for (int j = 1; j <= i; j++)
+                    Console.Write(" *");
+                {
+                    Console.WriteLine();
+                }
+            }
+            for (int i = num - 1; i >= 1; i--)
+            {
+                Console.Write("  ");
+                for (int k = num - i; k >= 1; k--)
+                {
+                    Console.Write(" ");
+                }
+                for (int j = 1; j <= i; j++)
+                    Console.Write(" *");
+                {
+                    Console.WriteLine();
+                }
+            }
 
-
-
-
-
-
-
-
-
-
-
-
+        }
 
 
         //__________----------__________----------__________----------__________----------__________----------
