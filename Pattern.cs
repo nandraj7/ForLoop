@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ForLoop
 {
-    internal class Pattern
+    public class Pattern
     {
         int num { get; set; }
 
-        private void GetNumberFromUser()
+        public void GetNumberFromUser()
         {
             Console.WriteLine("Enter Any Number");
             num = Convert.ToInt32(Console.ReadLine());
@@ -243,9 +243,9 @@ namespace ForLoop
         {
             Console.WriteLine();
             int k = 1;
-            for (int i = 1; i <= 26; i++)
+            for (int i = 1; i <= 6; i++)
             {
-                for (int j = 1; j <= 7; j++)
+                for (int j = 1; j <= 5; j++)
                 {
                     Console.Write(" " + Convert.ToChar(64 + k++));
                 }
@@ -257,9 +257,9 @@ namespace ForLoop
         {
             Console.WriteLine();
             int k = 26;
-            for (int i = 26; i >= 1; i--)
+            for (int i = 6; i >= 1; i--)
             {
-                for (int j = 7; j >= 1; j--)
+                for (int j = 5; j >= 1; j--)
                 {
                     Console.Write(" " + Convert.ToChar(64 + k--));
                 }

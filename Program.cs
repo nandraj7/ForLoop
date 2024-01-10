@@ -11,12 +11,12 @@ public class Program
         Pattern patternObject = new Pattern();
         // patternObject.NonStaticFunction2();
 
-        patternObject.StarPattern1();
-        patternObject.StarPattern2();
-        patternObject.StarPattern3();
-        patternObject.StarPattern4();
-        patternObject.StarPattern5();
-        patternObject.StarPattern6();
+        //patternObject.StarPattern1();
+        //patternObject.StarPattern2();
+        //patternObject.StarPattern3();
+        //patternObject.StarPattern4();
+        //patternObject.StarPattern5();
+        //patternObject.StarPattern6();
 
 
         //PrintNumbers();
@@ -30,14 +30,14 @@ public class Program
         //NestedLoop3();
         //NestedLoop4();
 
-        //Pattern.Pattern1();
-        //Pattern.Pattern2();
-        //Pattern.Pattern3();
-        //Pattern.Pattern4();
-        //Pattern.Pattern5();
-        //Pattern.Pattern6();
-        //Pattern.Pattern7();
-        //Pattern.Pattern8();
+        Pattern.Pattern1();
+        Pattern.Pattern2();
+        Pattern.Pattern3();
+        Pattern.Pattern4();
+        Pattern.Pattern5();
+        Pattern.Pattern6();
+        Pattern.Pattern7();
+        Pattern.Pattern8();
 
 
     }
